@@ -1,0 +1,32 @@
+header {
+background-image: url("https://cc-prod.scene7.com/is/image/CCProdAuthor/dt-ps-max-poster-image?$pjpeg$&jpegSize=300&wid=1440");
+height: 750px;
+background-repeat: no-repeat;
+background-size: cover;
+color: $colorWhite;
+}
+
+.container-header {
+  height: 750px;
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+ & .box-text {
+   padding: 30px 0;
+   > h1 {
+     margin-bottom: 10px;
+   }
+ }
+
+ & .box-button {
+   display: flex;
+   width: 50%;
+
+   > .btn-blue {
+     margin-left: 15px;
+   }
+ }
+}

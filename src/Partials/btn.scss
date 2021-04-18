@@ -1,0 +1,28 @@
+.btn {
+  border-radius: 50px;
+  padding: 10px 30px;
+  color: $colorWhite;
+  font-weight: bold;
+}
+
+.btn-transparent {
+  border: 2px solid $colorWhite;
+  background-color: transparent;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $colorWhite;
+    color: $textMain;
+  }
+}
+
+.btn-blue {
+  background-color: $mainColor;
+  border: 2px solid $mainColor;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $mainColorDark;
+    border: 2px solid $mainColorDark;
+  }
+}

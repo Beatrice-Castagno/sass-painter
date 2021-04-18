@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  color: $textMain;
+}
+
+@for $i from 1 through 4 {
+.font-body-#{$i} {
+ font-size: 16px * $i;
+ }
+}
+
+.text-center {
+  text-align: center;
+}
